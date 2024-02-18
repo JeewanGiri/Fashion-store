@@ -1,0 +1,138 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position:sticky;
+    top: 0%;
+    border-radius: 4px;
+}
+hr{
+    color: white;
+    margin-top: 0;
+}
+.one .item{
+ list-style: none;
+ text-decoration: none;
+ padding: 10px;
+ margin-right: 20px;
+ font-size: 20px;
+
+}
+span{
+    color:  red;
+}
+.one .item:hover{
+    font-size: 22px;
+    background-color: red;
+    border-radius: 15px;
+    transition: 0.1s;
+    box-shadow: 0 0 5px white;
+}
+.one ul{
+    display: flex;
+
+}
+.one ul li a {
+    text-decoration: none;
+    color: white;
+}
+.two{
+    display: flex;
+    padding-top: 20px ;
+    padding-right: 10px;
+    margin-left: 10px;
+    
+}
+.two #text{
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:transparent ;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.two img{
+    border-radius: 50%;
+    padding-right: 12px;
+    cursor: pointer;
+    
+}
+#font{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size:50px;
+}
+#awe{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products{
+    display: flex;
+    grid-gap:1.5cm;
+    margin: 20px;
+    
+}
+#image{
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    margin-top: 80px;
+    box-shadow: 0 0 5px black;
+}
+#image:hover{
+    height: 54px ;
+    width: 54px;
+    box-shadow: 0 0 10px red;
+    transition: 0.3s;
+}
+/* for roduct1 */
+.product1{
+    border: solid 2px rgb(7, 7, 5);
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    padding: 15px;
+    cursor: pointer;
+}
+.product1:hover{
+    box-shadow: 0 0 10px red;
+    transition: 0.5s;
+    transform: translate(-5px, -10px);
+}
+.product1 h3{
+     text-align: center;
+}
+.product1 h4{
+    text-align: center;
+    color: rgb(204, 13, 211);
+}
+button{
+    background-color: green;
+    border-radius: 10px;
+    padding-right: 20px;
+    width: 200px;
+}
+/* last */
+.last{
+    display: flex;
+    grid-gap: 0.5cm;
+}
+footer{
+    background-color: lightblue;
+}
+.site{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    margin-left:40px ;
+
+}
